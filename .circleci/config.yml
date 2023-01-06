@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: install dependencies
-          command: echo 'true world'
+          command: echo 'true'
 
 workflows:
   capstoneproject:
