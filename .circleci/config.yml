@@ -11,7 +11,9 @@ jobs:
       - checkout
       - run:
           name: install dependencies
-          command: echo 'true'
+          command: | 
+            echo 'true'
+            echo $MY_ENV_VAR
 
 workflows:
   newprojects:
